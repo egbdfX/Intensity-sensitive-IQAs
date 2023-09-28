@@ -4,15 +4,6 @@ function [out] = itw(recon,ref,varargin)
     type = varargin{1};
     type = validatestring(type,{'Gau','tanh','sigm'});
     
-    maxx = max(max(max(recon)),max(max(ref)));
-    
-    for i = 1:m
-        for j = 1:n
-            recon(i,j) = recon(i,j)/maxx;
-            ref(i,j) = ref(i,j)/maxx;
-        end
-    end
-    
     ave_recon = 0;
     ave_ref = 0;
     
