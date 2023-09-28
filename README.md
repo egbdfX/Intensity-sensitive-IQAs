@@ -2,11 +2,9 @@
 
 We have developed three IQA metrics for assessing low-information image in fields such as radio astrnomical imaging, medical imaging, and remote sensing. They are InTensity Weighted Structural SIMilarity (ITW-SSIM), Low-Information Similarity Index (LISI), and augmented Low-Information Similarity Index (augLISI). Please see our papers in Section [Reference](https://github.com/egbdfX/Intensity-sensitive-IQAs/tree/main#reference) for more information.
 
-# ITW-SSIM
+## ITW-SSIM
 
-## Description
-
-**itw**: Intensity Weighted SSIM Index (ITW-SSIM) for measuring image quality.
+**itw**:
 
 ```out = itw(recon,ref,varargin)``` calculates the ITW-SSIM value for image ```recon```, with the image ```ref``` as the reference. ```recon``` and ```ref``` must be of the same size and class. The output ITW-SSIM, ```out```, is a double valued scalar. The weighting mode ```varargin``` needs to be inputted with ```'Gau'``` for Gaussian-based weighting function, ```'tanh'``` for tanh-based weighting function, and ```'sigm'``` for sigmoid-based weighting function.
 
