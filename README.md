@@ -6,9 +6,13 @@ We have developed three IQA metrics for assessing low-information image in field
 
 ITW-SSIM function is written in MATLAB.
 
-```out = itw(recon,ref,varargin)``` calculates the ITW-SSIM value for image ```recon```, with the image ```ref``` as the reference image. ```recon``` and ```ref``` must be of the same size and class. The output ITW-SSIM, ```out```, is a double valued scalar. The weighting mode ```varargin``` needs to be inputted with ```'Gau'``` for Gaussian-based weighting function, ```'tanh'``` for tanh-based weighting function, and ```'sigm'``` for sigmoid-based weighting function.
+```out = itw(recon,ref,varargin)``` calculates the ITW-SSIM value for image ```recon``` and image ```ref```. ```recon``` and ```ref``` must be of the same size and class, and both images have been normalised to the comparable intensity scale. The output ITW-SSIM, ```out```, is a scalar. The weighting mode ```varargin``` needs to be inputted with ```'Gau'``` for Gaussian-based weighting function, ```'tanh'``` for tanh-based weighting function, and ```'sigm'``` for sigmoid-based weighting function.
 
-## LISI
+## LISI (lisi.py)
+
+LISI function is written in Python.
+
+```out = lisi(x,y)``` calculates the LISI value for image ```x``` and image ```y```. ```x``` and ```y``` must be of the same size and class, and both images have been normalised to the comparable intensity scale. The output LISI, ```out```, is a scalar.
 
 ## augLISI
 
