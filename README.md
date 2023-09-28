@@ -16,6 +16,10 @@ LISI function is written in Python.
 
 ## augLISI
 
+augLISI function is written in Python.
+
+```out = auglisi(x,y)``` calculates the augLISI value for image ```x``` and image ```y```. ```x``` and ```y``` must be of the same size and class, and both images have been normalised to the comparable intensity scale. The output augLISI, ```out```, is a scalar.
+
 ## Reference
 
 **When referencing ITW-SSIM or LISI, please cite our related paper:**
