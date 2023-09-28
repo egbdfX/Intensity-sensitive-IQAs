@@ -12,11 +12,11 @@ We have developed three IQA metrics for assessing low-information image in field
 
 ## Reference
 
-When referencing ITW-SSIM or LISI, please cite our related paper:
+**When referencing ITW-SSIM or LISI, please cite our related paper:**
 
 X. Li and W. Armour, "Intensity-Sensitive Similarity Indexes for Image Quality Assessment," 2022 26th International Conference on Pattern Recognition (ICPR), Montreal, QC, Canada, 2022, pp. 1975-1981, doi: 10.1109/ICPR56361.2022.9956093.
 
-When referencing augLISI, please cite our related paper:
+**When referencing augLISI, please cite our related paper:**
 
 X. Li, K. Adámek, W. Armour, "Intensity-sensitive quality assessment of extended sources in astronomical images," 2023.
 
