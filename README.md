@@ -1,6 +1,6 @@
 # Intensity-Sensitive Image Quality Assessment (IQA) Metrics
 
-We have developed three IQA metrics for assessing low-information image in fields such as radio astrnomical imaging, medical imaging, and remote sensing. They are InTensity Weighted Structural SIMilarity (ITW-SSIM), Low-Information Similarity Index (LISI), and augmented Low-Information Similarity Index (augLISI). Please see our papers in Section [Reference](https://github.com/egbdfX/Intensity-sensitive-IQAs/edit/main/README.md#reference) for more information.
+We have developed three IQA metrics for assessing low-information image in fields such as radio astrnomical imaging, medical imaging, and remote sensing. They are InTensity Weighted Structural SIMilarity (ITW-SSIM), Low-Information Similarity Index (LISI), and augmented Low-Information Similarity Index (augLISI). Please see our papers in Section [Reference](https://github.com/egbdfX/Intensity-sensitive-IQAs/tree/main#reference) for more information.
 
 # ITW-SSIM
 
