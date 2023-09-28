@@ -4,6 +4,8 @@ We have developed three IQA metrics for assessing low-information image in field
 
 ## ITW-SSIM (itw.m)
 
+ITW-SSIM function is written in MATLAB.
+
 ```out = itw(recon,ref,varargin)``` calculates the ITW-SSIM value for image ```recon```, with the image ```ref``` as the reference image. ```recon``` and ```ref``` must be of the same size and class. The output ITW-SSIM, ```out```, is a double valued scalar. The weighting mode ```varargin``` needs to be inputted with ```'Gau'``` for Gaussian-based weighting function, ```'tanh'``` for tanh-based weighting function, and ```'sigm'``` for sigmoid-based weighting function.
 
 ## LISI
