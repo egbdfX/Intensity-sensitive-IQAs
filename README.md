@@ -2,11 +2,11 @@
 
 We have developed three IQA metrics for assessing low-information image in fields such as radio astrnomical imaging, medical imaging, and remote sensing. They are InTensity Weighted Structural SIMilarity (ITW-SSIM), Low-Information Similarity Index (LISI), and augmented Low-Information Similarity Index (augLISI). Please see our papers in Section [Reference](https://github.com/egbdfX/Intensity-sensitive-IQAs/tree/main#reference) for more information.
 
-## ITW-SSIM (itw.m)
+## ITW-SSIM (itw.py)
 
-ITW-SSIM function is written in MATLAB.
+ITW-SSIM function is written in Python.
 
-```out = itw(recon,ref,varargin)``` calculates the ITW-SSIM value for image ```recon``` and image ```ref```. ```recon``` and ```ref``` must be of the same size and class, and both images have been normalised to the comparable intensity scale. The output ITW-SSIM, ```out```, is a scalar. The weighting mode ```varargin``` needs to be inputted with ```'Gau'``` for Gaussian-based weighting function, ```'tanh'``` for tanh-based weighting function, and ```'sigm'``` for sigmoid-based weighting function.
+```out = itw(x,y,type_str)``` calculates the ITW-SSIM value for image ```x``` and image ```y```. ```x``` and ```y``` must be of the same size and class, and both images have been normalised to the comparable intensity scale. The output ITW-SSIM, ```out```, is a scalar. The weighting mode ```type_str``` needs to be inputted with ```'Gau'``` for Gaussian-based weighting function, ```'tanh'``` for tanh-based weighting function, and ```'sigm'``` for sigmoid-based weighting function.
 
 ## LISI (lisi.py)
 
