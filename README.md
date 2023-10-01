@@ -14,7 +14,7 @@ LISI function is written in Python.
 
 ```out = lisi(x,y)``` calculates the LISI value for image ```x``` and image ```y```. ```x``` and ```y``` must be of the same size and class, and both images have been normalised to the comparable intensity scale. The output LISI, ```out```, is a scalar.
 
-## augLISI
+## augLISI (auglisi.py)
 
 augLISI function is written in Python.
 
