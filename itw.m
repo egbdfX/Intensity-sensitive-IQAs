@@ -4,11 +4,6 @@ function [out] = itw(recon,ref,varargin)
     type = varargin{1};
     type = validatestring(type,{'Gau','tanh','sigm'});
     
-    maxx = max(max(max(recon)),max(max(ref)));
-    
-    recon = recon/maxx;
-    ref = ref/maxx;
-    
     weix = weighting(recon,type);
     wx = sum(weix,'all');
     weiy = weighting(ref,type);
