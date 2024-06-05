@@ -1,6 +1,6 @@
 # Intensity-Sensitive Image Quality Assessment (IQA) Metrics
 
-We have developed three IQA metrics for assessing low-information images in fields such as radio astronomical imaging, medical imaging, and remote sensing. They are InTensity Weighted Structural SIMilarity (ITW-SSIM), Low-Information Similarity Index (LISI), augmented Low-Information Similarity Index (augLISI), and transient-oriented Low-Information Similarity Index (tLISI). Please see our papers in Section [Reference](https://github.com/egbdfX/Intensity-sensitive-IQAs/tree/main#reference) for more information.
+We have developed four IQA metrics for assessing low-information images in fields such as radio astronomical imaging, medical imaging, and remote sensing. They are InTensity Weighted Structural SIMilarity (ITW-SSIM), Low-Information Similarity Index (LISI), augmented Low-Information Similarity Index (augLISI), and transient-oriented Low-Information Similarity Index (tLISI). Please see our papers in Section [Reference](https://github.com/egbdfX/Intensity-sensitive-IQAs/tree/main#reference) for more information.
 
 ## ITW-SSIM (itw.py)
 
@@ -24,7 +24,7 @@ augLISI function is written in Python.
 
 tLISI function is written in Python.
 
-```out = tlisi(x,y,snap,maxx)``` calculates the tLISI value for difference image ```x``` and difference image ```y```, where ```x``` and ```y``` must be the same size and class. ```snap``` is the reference snapshot image and ```maxx``` is the maximum pixel value in the sequential images.
+```out = tlisi(x,y,snap,maxx)``` calculates the tLISI value for difference image ```x``` and difference image ```y```, where ```x``` and ```y``` must be of the same size and class. ```snap``` is the reference snapshot image and ```maxx``` is the maximum pixel value in the sequential images.
 
 ## Reference
 
