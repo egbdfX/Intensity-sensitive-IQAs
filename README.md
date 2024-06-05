@@ -34,6 +34,10 @@ X. Li and W. Armour, "Intensity-Sensitive Similarity Indexes for Image Quality A
 
 **When referencing augLISI, please cite our related paper:**
 
+X. Li, K. Adámek, W. Armour, "Intensity-sensitive quality assessment of extended sources in astronomical images," 2024.
+
+**When referencing tLISI, please cite our related paper:**
+
 X. Li, K. Adámek, W. Armour, "GPU-accelerated fast imaging trigger for source localisation in transient detection," 2024.
 
 ## License
