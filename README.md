@@ -20,6 +20,12 @@ augLISI function is written in Python.
 
 ```out = auglisi(x,y)``` calculates the augLISI value for image ```x``` and image ```y```. ```x``` and ```y``` must be of the same size and class, and both images have been normalised to the comparable intensity scale. The output augLISI, ```out```, is a scalar.
 
+## tLISI (tlisi.py)
+
+tLISI function is written in Python.
+
+```out = tlisi(x,y,snap,maxx)``` calculates the tLISI value for difference image ```x``` and difference image ```y```, where ```x``` and ```y``` must be the same size and class. ```snap``` is the reference snapshot image and ```maxx``` is the maximum pixel value in the sequential images.
+
 ## Reference
 
 **When referencing ITW-SSIM or LISI, please cite our related paper:**
