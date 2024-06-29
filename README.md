@@ -26,6 +26,9 @@ tLISI function is written in Python.
 
 ```out = tlisi(x,y,snap,maxx)``` calculates the tLISI value for difference image ```x``` and difference image ```y```, where ```x``` and ```y``` must be of the same size and class. ```snap``` is the reference snapshot image and ```maxx``` is the maximum pixel value in the sequential images.
 
+## Contact
+If you have any questions or need further assistance, please feel free to contact at [egbdfmusic1@gmail.com](mailto:egbdfmusic1@gmail.com).
+
 ## Reference
 
 **When referencing ITW-SSIM or LISI, please cite our related paper:**
