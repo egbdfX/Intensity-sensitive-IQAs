@@ -37,7 +37,7 @@ X. Li and W. Armour, "Intensity-Sensitive Similarity Indexes for Image Quality A
 
 **When referencing augLISI, please cite our related paper:**
 
-X. Li, K. Adámek, and W. Armour, "Intensity-Sensitive Quality Assessment of Extended Sources in Astronomical Images," The Astrophysical Journal Supplement (ApJS) Series, vol. 274, no. 2, 2024, pp. 37.
+X. Li, K. Adámek, and W. Armour, "Intensity-Sensitive Quality Assessment of Extended Sources in Astronomical Images," The Astrophysical Journal Supplement (ApJS) Series, vol. 274, no. 2, 2024, pp. 37, doi: 10.3847/1538-4365/ad6a58.
 
 **When referencing tLISI, please cite our related paper:**
 
