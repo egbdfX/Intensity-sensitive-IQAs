@@ -41,7 +41,7 @@ X. Li, K. Adámek, and W. Armour, "Intensity-Sensitive Quality Assessment of Ext
 
 **When referencing tLISI, please cite our related paper:**
 
-X. Li, K. Adámek, W. Armour, "GPU-accelerated fast imaging trigger for source localisation in transient detection," 2024.
+X. Li, K. Adámek, W. Armour, "FITrig: A High-Performance Detection Technique for Efficient Ultra-Low-Frequency Pulsars," 2025.
 
 ## License
 
