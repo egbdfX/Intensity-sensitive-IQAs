@@ -14,17 +14,23 @@ LISI function is written in Python.
 
 ```out = lisi(x,y)``` calculates the LISI value for image ```x``` and image ```y```. ```x``` and ```y``` must be of the same size and class, and both images have been normalised to the comparable intensity scale. The output LISI, ```out```, is a scalar.
 
+See [this page](https://github.com/egbdfX/gpuLISI) for GPU-accelerated LISI.
+
 ## augLISI (auglisi.py)
 
 augLISI function is written in Python.
 
 ```out = auglisi(x,y)``` calculates the augLISI value for image ```x``` and image ```y```. ```x``` and ```y``` must be of the same size and class, and both images have been normalised to the comparable intensity scale. The output augLISI, ```out```, is a scalar.
 
+See [this page](https://github.com/egbdfX/gpuAugLISI) for GPU-accelerated augLISI.
+
 ## tLISI (tlisi.py)
 
 tLISI function is written in Python.
 
 ```out = tlisi(x,y,snap,maxx)``` calculates the tLISI value for difference image ```x``` and difference image ```y```, where ```x``` and ```y``` must be of the same size and class. ```snap``` is the reference snapshot image and ```maxx``` is the maximum pixel value in the sequential images.
+
+It has been implemented as the core component of [FITrig](https://github.com/egbdfX/FastImagingTrigger).
 
 ## Contact
 If you have any questions or need further assistance, please feel free to contact at [egbdfmusic1@gmail.com](mailto:egbdfmusic1@gmail.com).
