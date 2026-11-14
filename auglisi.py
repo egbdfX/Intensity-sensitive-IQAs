@@ -6,7 +6,7 @@ def auglisi(x,y):
     z = numpy.abs(x+y)*numpy.abs(x-y)
     num = numpy.sum(z)
     den = numpy.sum(x)+numpy.sum(y)
-    den = den+C
+    den = den+C # Or, den = max(den, C)
     out = 1-num/den
     
     return out
